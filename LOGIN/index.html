@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>LOGIN FORM UTS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="index">
+    <div class="container">
+        <div class="col">
+            <div class="row-6">
+                <h3>Sign in to LAB EVO</h3>
+                <label id="jdl2" class="text-secondary">Silahkan login dengan akun anda.</label>
+                <br><br>
+
+                <div id="wrong" class="bg-danger text-light text-center"></div>
+
+                <div class="input">
+                    <input type="text" name="nama" id="nama" required>
+                    <span class="text">username</span>
+                </div>
+                <hr>
+
+                <div class="input">
+                    <input type="password" name="password" id="password" required>
+                    <span class="text">password</span>
+                </div>
+                <hr>
+
+                <button onclick="login()" class="rounded">Log In</button>
+
+
+                <img id="image" src="images/WEB.svg" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
